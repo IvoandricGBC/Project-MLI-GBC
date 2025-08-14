@@ -1,0 +1,19 @@
+# Core scientific stack
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.4
+matplotlib>=3.8
+
+# Computer vision
+opencv-python>=4.9
+albumentations>=1.4
+timm>=0.9
+
+# PyTorch ecosystem (CPU wheels by default; see note in README for GPU)
+torch>=2.2
+torchvision>=0.17
+torchaudio>=2.2
+
+# Training & utilities
+pytorch-lightning>=2.2
+tqdm>=4.66

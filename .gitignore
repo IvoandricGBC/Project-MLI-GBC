@@ -1,0 +1,22 @@
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.DS_Store
+.vscode/
+.idea/
+# Data / artifacts (keep repo light)
+images_full/
+cropped_images_pad30/
+data/csv/
+ckpts/
+state/
+runs/
+outputs/
+logs/
+*.pt
+*.pth
+*.ckpt
+*.onnx

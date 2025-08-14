@@ -1,0 +1,21 @@
+name: distance-estimation-v3
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pip:
+      - numpy>=1.26
+      - pandas>=2.2
+      - scikit-learn>=1.4
+      - matplotlib>=3.8
+      - opencv-python>=4.9
+      - albumentations>=1.4
+      - timm>=0.9
+      - pytorch-lightning>=2.2
+      - tqdm>=4.66
